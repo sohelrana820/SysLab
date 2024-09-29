@@ -1,0 +1,14 @@
+{
+  "name": "yourname/webrpc-php",
+  "description": "A simple WebRPC implementation in PHP",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "WebRPC\\": "src/WebRPC/",
+      "Examples\\": "src/Examples/"
+    }
+  },
+  "require": {
+    "php": ">=7.2"
+  }
+}
